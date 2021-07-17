@@ -1,8 +1,8 @@
-# Configure Metricsbeat Jolokia module
+# Configure Metricbeat Jolokia module
 
 ## Prerequisite
 
-1. Metricsbeat (`version 7.13.2`)agent installed on the host where Jira is installed and running
+1. Metricbeat (`version 7.13.2`)agent installed on the host where Jira is installed and running
 
 2. Metricbeat comes to `Jolokia` module, check if it is present 
 
@@ -74,7 +74,7 @@
    
    ```
 
-   > To add more mbean and attributes provided by Jira, you can use JConsole, some propertities of MBean are specific to Java Virtual Machine running on the host. Hence based on the Runtime some properities may differ for example GarbageCollector and JVM properties. If you want to monitor those then you will need use JConsole for Query what is available.
+   > To add more mbean and attributes provided by Jira, you can use JConsole. Some properties of MBean are specific to Java Virtual Machine (JVM) running on the host. Hence based on the JVM runtime  some properities may differ. For example GarbageCollector and JVM properties. If you want to monitor these then you will need use JConsole to Query and analyse what is available.
 
 4. Enable the `Jolokia` metricbeat module 
 
@@ -84,9 +84,9 @@
 
    
 
-5. Restart `metricsbeat` agent
+5. Restart `metricbeat` agent
 
-6. Once you restart metricsbeat and you should be able to see the Mbean fields and values in metricsbeat index
+6. Once you restart metricbeat and you should be able to see the Mbean fields and values in metricbeat index
 
    ![image-20210717124952586](./image-20210717124952586.png)
 
