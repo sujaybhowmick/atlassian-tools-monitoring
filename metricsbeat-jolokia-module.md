@@ -86,4 +86,8 @@
 
 5. Restart `metricsbeat` agent
 
+6. Once you restart metricsbeat and you should be able to see the Mbean fields and values in metricsbeat index
+
+   ![image-20210717124952586](./image-20210717124952586.png)
+
    
