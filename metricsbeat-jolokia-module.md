@@ -74,7 +74,7 @@
    
    ```
 
-   
+   > To add more mbean and attributes provided by Jira, you can use JConsole, some propertities of MBean are specific to Java Virtual Machine running on the host. Hence based on the Runtime some properities may differ for example GarbageCollector and JVM properties. If you want to monitor those then you will need use JConsole for Query what is available.
 
 4. Enable the `Jolokia` metricbeat module 
 
@@ -85,3 +85,5 @@
    
 
 5. Restart `metricsbeat` agent
+
+   
